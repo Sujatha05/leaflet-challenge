@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  background-color:white;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.legend-item {
+  margin-bottom: 1px; /* Adjust the margin as needed for spacing between legend items */
+}
+
+.legend-color {
+  display: inline-block;
+  width: 10px; /* Adjust the width of the color box as needed */
+  height: 10px; /* Adjust the height of the color box as needed */
+  margin-right: 5px; /* Adjust the margin as needed for spacing between color box and label */
+}
+.custom-tooltip {
+  background-color: white;
+  color: #333;
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+.custom-tooltip:hover {
+  transform: scale(1.1); /* Add a scaling effect on hover */
+}
